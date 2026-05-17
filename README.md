@@ -1,0 +1,59 @@
+# CCL AI-Augmented Library Management System
+
+An AI-powered digital library platform developed for Central Coalfields Limited (CCL) during internship work, designed to modernize document management, intelligent search, and secure access control.
+
+[Python](https://img.shields.io/badge/Python-3.9+-blue.svg) | [Flask](https://img.shields.io/badge/Flask-2.0+-green.svg) | [MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen.svg) | [Cohere](https://img.shields.io/badge/Cohere-LLM-orange.svg) | [Google OAuth](https://img.shields.io/badge/Google-OAuth2.0-red.svg)
+
+---
+
+## Features
+
+### Authentication & Security
+- Google OAuth 2.0 Authentication – Secure login via Google accounts
+- Role-Based Access Control (RBAC) – Admin and User roles managed via MongoDB
+- Secure OpenID Connect flow with nonce validation
+
+### Document Management
+- Single Upload – Quick document addition
+- Bulk Upload – Mass document ingestion
+- Multi-format Support – PDF, DOC/DOCX, TXT files
+
+### Advanced Search
+- Title-based search
+- Recent uploads tracking
+- Metadata filtering
+
+### AI-Powered Chatbot
+- Context-aware document assistance using Cohere LLM
+- Document summarization and intelligent querying
+- Natural language document interaction
+
+### User Experience
+- Responsive UI with modal-based navigation
+- MongoDB Atlas integration for seamless data management
+
+---
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| Backend | Python, Flask, Authlib |
+| Frontend | HTML5, CSS3, JavaScript |
+| Database | MongoDB Atlas, PyMongo |
+| AI / NLP | Cohere Command-R+ API |
+| Authentication | Google OAuth 2.0 |
+
+---
+
+## Authentication Architecture
+
+Google OAuth -> Flask Session -> MongoDB Role Verification
+
+- Google OAuth handles authentication
+- MongoDB handles authorization and role management
+- Secure OpenID Connect flow with nonce validation
+
+---
+
+## Project Structure
