@@ -58,12 +58,14 @@ Google OAuth -> Flask Session -> MongoDB Role Verification
 
 ## Project Structure
 CC_LIBRARY_SYSTEM/
+│
 ├── static/
 │   ├── images/
 │   ├── uploads/
 │   ├── style.css
 │   ├── home.css
 │   └── stylelogin.css
+│
 ├── templates/
 │   ├── home.html
 │   ├── index.html
@@ -71,12 +73,15 @@ CC_LIBRARY_SYSTEM/
 │   ├── search_results.html
 │   ├── manage_uploads.html
 │   └── admin_users.html
+│
 ├── tests/
 │   └── test_app.py
+│
 ├── app.py
 ├── db.py
 ├── .env
 └── requirements.txt
+
 ## Setup Instructions
 
 ### 1. Clone Repository
