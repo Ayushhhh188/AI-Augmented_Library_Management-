@@ -1,0 +1,91 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Uploaded files (keep structure but ignore actual uploads)
+static/uploads/
+!static/uploads/.gitkeep
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Cohere/API related
+cohere_credentials.json
+*.key
+*.pem
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.TrashBin
+
+# Project specific
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Test outputs
+tests/test_outputs/
+tests/__pycache__/
+
+# Documentation
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Profile data
+.prof
+*.prof
