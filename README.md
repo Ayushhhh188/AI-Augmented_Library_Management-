@@ -1,4 +1,4 @@
-# CCL AI-Augmented Library Management System
+# AI-Augmented Library Management System
 
 An AI-powered digital library platform developed for Central Coalfields Limited (CCL) during internship work, designed to modernize document management, intelligent search, and secure access control.
 
